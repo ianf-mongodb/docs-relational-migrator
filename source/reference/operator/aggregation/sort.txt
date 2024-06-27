@@ -231,11 +231,11 @@ documents. See :expression:`$meta` for more information.
 ``$sort`` is subject to the 100 megabyte memory usage limit, but is 
 able to write temporary files to disk if additional space is required.
 
-.. include:: /includes/fact-allowDiskUseByDefault.rst
+.. warning::
 
-.. seealso::
+   .. include:: /includes/fact-allowDiskUseByDefault.rst
 
-   :doc:`/core/aggregation-pipeline-limits`
+For details, see :ref:`agg-pipeline-limits`.
 
 ``$sort`` Operator and Performance
 ----------------------------------
